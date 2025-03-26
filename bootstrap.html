@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <style>
+    .container-fluid {
+      background: aqua;
+      background: radial-gradient(circle, rgb(238, 174, 234) 0%, aqua);
+      /* position:fixed;
+      margin-top: 70px; */
+
+
+    }
+
+    .contain {
+      height: 100vh;
+      width: 100%;
+      background-image: url(./img2.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .first {
+      align-items: center;
+      margin-top: 200px;
+      text-align: center;
+      color: black;
+    }
+
+    .about {
+      height: 80vh;
+      margin-top: 200px;
+
+    }
+
+    .container {
+      height: 150vh;
+    }
+
+    .contact {
+      height: 80vh;
+
+
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      width: 30%;
+
+      margin-left: 35%;
+      margin-top: 30px;
+    }
+
+    form label {
+      background-color: palevioletred;
+    }
+
+    form input {
+      background-color: aqua;
+    }
+    body{
+      background-color: palevioletred;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="contain">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid" style="height: 150px; width: 100%;">
+        <a class="navbar-brand" href="#"
+          style="font-size: 40px; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-weight: bolder ;">SADABAHAR
+          RESTURANT</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  active" aria-current="page" href="#menue">
+                Menue</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  active" aria-current="page" href="#about">About us</a>
+            </li>
+
+
+            <li class="nav-item">
+              <a class="nav-link  active" aria-current="page" href="#contact">Contact us</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="first">
+      <h1
+        style="font-size: 50px ; font-weight: bolder; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">
+        Welocome To My First WebSite</h1>
+      <p
+        style="font-size: 20px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; font-weight: bolder; margin-right: 300px; margin-left: 300px;">
+        Our aim is to serve our customers with Quality Food and a Taste they will never forget. We are very Passionate
+        about our work and want to rise in this industry as a Top Brand </p>
+    </div>
+  </div>
+  <div class="about" id="about">
+    <div class="row">
+      <div class="col-3"></div>
+      <div class="col-2">
+        <img src="imag3.jfif" alt="">
+      </div>
+      <div class="col-4">
+        <h1
+          style="background-color: aqua; color: black; text-align: center; font-weight: bolder; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+          ABOUT US</h1>
+        <P
+          style="font-weight: bold; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; background-color: palevioletred;">
+          Sadabahar is the venue of all the major events to be held in the cosmopolitan city of Karachi, situated in the
+          heart of the city within easy access Restaurant Timings: 12:00 PM - 11:59 PM Order New Sadabahar Restaurant
+          delivery in Karachi now! ✓ Superfast food delivery to your home or office ✓ Check Sadabahar Restaurant menu
+          and prices</P>
+      </div>
+      <div class="col-3"></div>
+    </div>
+  </div>
+  </div>
+  <!-- menue -->
+  <div class="container" id="menue">
+    <h1
+      style="font-size: 40px; font-weight: bolder; font-family: Georgia, 'Times New Roman', Times, serif; background-color: aqua; text-align: center;">
+      MENUE</h1>
+    <div class="card-group">
+      <div class="card">
+        <img src="biryani.jfif" class="card-img-top" alt="..." style="height: 300px; width: 300px;">
+        <div class="card-body">
+          <h5 class="card-title">Special Biryani</h5>
+          <p class="card-text"> Biryani's taste is a delightful mix of aromatic spices, tender meat, and flavorful rice,
+            creating a rich and savory experience. Experiment with Ingredients: Use high-quality basmati rice and fresh
+            spices to enhance the flavors of your biryani, making it more authentic and delicious. biryani prices start
+            Rs.350</p>
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/haleem.jfif" class="card-img-top" alt="..." style="height: 300px; width: 300px;">
+        <div class="card-body">
+          <h5 class="card-title">Chicken Haleem</h5>
+          <p class="card-text">chicken chunks bringing a subtle flavor to the meal, chicken haleem gives the traditional
+            recipe a lighter variation. Chicken Haleem. from Rs. 190. </p>
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/karhai.jfif" class="card-img-top" alt="..." style="height: 300px; width: 300px;">
+        <div class="card-body">
+          <h5 class="card-title">Chiken karhai</h5>
+          <p class="card-text"> The dish is prepared in a karahi (a type of wok) and can take between 30 and 50 minutes
+            to prepare and cook the dish. Ginger, garlic, tomatoes, green chilli and coriander are key to the flavor of
+            the dish. Chicken Karahi. from Rs. 350.</p>
+
+        </div>
+      </div>
+
+
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="img/tea.jfif" class="card-img-top" alt="..." style="height: 300px; width: 300px;">
+          <div class="card-body">
+            <h5 class="card-title">Special Tea</h5>
+            <p class="card-text">Milk tea tastes literally like milk and tea with a few sweeteners and the flavoring.
+              I'd suggest you try out flavors you're interested in. It's steaming hot, milky with a bold flavour, and a
+              little sugar to offset the toasty bitterness. Tea price is Rs.100</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="./img/ice.jfif" class="card-img-top" alt="..." style="height: 300px; width: 300px;">
+          <div class="card-body">
+            <h5 class="card-title">Ice-Cream</h5>
+            <p class="card-text">Delicious · Refreshing · Cool · Sweet · Inviting · Delectable · Creamy · Smooth; Soft;
+              Luscious; Yummy.. Ice-Cream prices starting from RS.300</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="img/kheer.jfif" class="card-img-top" alt="..." style="height: 300px; width: 300px;">
+          <div class="card-body">
+            <h5 class="card-title">Kheer</h5>
+            <p class="card-text"> Kheer Khaas Pair. Rs. 150. This yummy is kheer made with rice, milk, a dash of rose
+              water and khoya. Popular · Zarda. Rs. 100. A traditional sweet rice</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- contact -->
+  <div class="contact" id="contact">
+    <center>
+      <h1
+        style="background-color: aqua; font-size: 50px; font-weight: bolder; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin-left: 100px; margin-right: 100px;">
+        contact us</h1>
+      <div class="form" style="text-align: center;">
+
+        <form action="">
+
+          <label for=""> NAME</label>
+          <input type="text" placeholder="Enter your name">
+          <label for="">Email</label>
+          <input type="email" placeholder="Enter your Email">
+          <label for="">Phone Number</label>
+          <input type="tel" placeholder="e.g 03XX-XXXXXX" pattern="[0-9]{4}-[0-9]{7}">
+          <label for="">Comments</label>
+          <textarea name="" id="" rows="10" placeholder="Write here!" style="background-color: aqua;"></textarea>
+          <button class="btn" style="background-color: palevioletred;"><a href="">Submit</a></button>
+
+        </form>
+
+
+    </center>
+  </div>
+
+  <div class="footer" style="background-image: url(./img2.jpg); height: 30vh; background-position: center; background-repeat: no-repeat; background-size: cover;">\
+    <h1 style="color: black; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-weight: bolder; font-size: 70px; text-align: center;">THANK YOU!</h1>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
